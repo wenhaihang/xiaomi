@@ -1,0 +1,217 @@
+a{
+	text-decoration: none;
+	color: #333;
+}
+a:hover{
+	text-decoration: none;
+}
+.land-container{
+	width: 1130px;
+	margin: 0 auto;
+}
+.logo{
+	width: 200px;
+	height: 98px;
+	background-image: url('../images/logo-2.png');
+}
+.logo a{
+	display: inline-block;
+	width: 200px;
+	height: 98px;
+}
+.content{
+	width: 100%;
+	height: 524px;
+	position: absolute;
+	left: 0;
+	top: 98px;
+	background-image: url('../images/land-2.jpg');
+	background-position: -484px -5px;
+}
+.content a{
+	display: inline-block;
+	width: 100%;
+	height: 524px;
+}
+.login-reg{
+	padding-top: 32px;
+	width: 1130px;
+	margin: 0px auto;
+}
+.login-span1{
+	width: 410px;
+	min-height: 486px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	font-size: 14px;
+	background-color: #fff;
+	margin:0 auto 20px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	z-index: 4;
+	position: relative;
+}
+.login-span2{
+	padding: 27px 0 24px;
+	text-align: center;
+	font-size: 24px;
+	color: #666;
+}
+.login-span2 a{
+	color:#757575;
+}
+.login-span2 .text-1{
+	color: #f56600;
+}
+.login-span2 span{
+	width: 1px;
+	height: 24px;
+	border: 1px solid #e0e0e0;
+	margin: 0 35px 0 42px;
+}
+.login-span3{
+	width: 348px;
+	padding-bottom: 0px;
+	margin: 0 auto;
+}
+.login-span3 form{
+	margin-top: 10px;
+}
+.login-span3 form input{
+	width: 306px;
+	height: 20px;
+	line-height: 22px;
+	padding: 13px 16px 13px 14px;
+	border: 1px solid #e0e0e0;
+	margin-bottom: 14px;
+	outline:medium;
+}
+.login-span3 form button{
+	color: #fff;
+	width: 100%;
+	height: 52px;
+	line-height: 50px;
+	background-color: #ff6700;
+	margin-top: 10px;
+	margin-bottom: 14px;
+	border: none;
+	outline:medium;
+	cursor: pointer;
+}
+.login-span4{
+	margin-top: -5px;
+	overflow: hidden;
+}
+.span4-left{
+	float: left;
+}
+.span4-left span a{
+	color: #ff6700;
+	border: 0 none;
+	padding-bottom: 30px;
+	margin: 0px;
+	line-height: normal;
+	display: block;
+}
+.span4-right{
+	float: right;
+	padding-top: 0;
+	color: #999;
+}
+.span4-right a{
+	color: #999;
+}
+.login-span5{
+	margin: 0px 31px;
+	position: absolute;
+	top: 435px;
+	width: 348px;
+	padding-top: 0px;
+	text-align: center;
+	font-size: 14px;
+	color: #bbb;
+}
+.login-span6::after,.login-span6::before{
+	content: '';
+	display: block;
+	height: 1px;
+	width: 128px;
+	position: relative;
+	background-color: #bbb;
+}
+.login-span6::after{
+	left: 0px;
+	top: -9px;
+}
+.login-span6::before{
+	right: -220px;
+	top:10px;
+}
+.login-span7{
+	padding-top: 3px;
+	display: block;
+}
+.login-span7 a{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 0 17px;
+	border-radius: 50%;
+}
+.login-span7 a i{
+	background-image: url('../images/land-3.png');
+	display: block;
+	height: 18px;
+	margin: 4px auto 0;
+}
+.login-span7 a:nth-child(1){
+	background-color: #0288d1;
+}
+.login-span7 a:nth-child(1) i{
+	background-position: -19px 0;
+	width: 18px;
+}
+.login-span7 a:nth-child(2){
+	background-color: #d32f2f;
+}
+.login-span7 a:nth-child(2) i{
+	background-position: -38px 0;
+	width: 18px;
+}
+.login-span7 a:nth-child(3){
+	background-color: #0ae;
+}
+.login-span7 a:nth-child(3) i{
+	background-position: -57px 0;
+	width: 25px;
+}
+.login-span7 a:nth-child(4){
+	background-color: #00d20d;
+}
+.login-span7 a:nth-child(4) i{
+	background-position: -83px 0;
+	width: 24px;
+}
+footer{
+	background-color: #fff;
+	margin-top: 0px;
+	padding-top: 100px;
+	position: relative;
+	z-index: 4;
+	height: 80px;
+	text-align: center;
+	color: #757575;
+	font-size: 14px;
+}
+.footer-span1 a{
+	color: #757575;
+}
+.footer-span1 a:hover{
+	color: #000;
+}
+footer p{
+	padding: 10px;
+}
+footer p a{
+	color:#757575;
+}
